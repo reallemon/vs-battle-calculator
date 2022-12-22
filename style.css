@@ -1,0 +1,43 @@
+body {
+  background-color: #111827;
+  color: white;
+}
+
+/* Table styling template */
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #a9b1d6;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid #9aa5ce;
+  padding: 10px 20px;
+}
+
+th {
+  background-color: #1a1b26;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(odd) td {
+  background-color: #24283b;
+}
+
+tr:nth-child(even) td {
+  background-color: #414868;
+}
+
+caption {
+  padding: 10px;
+}
+/* End table styling template */
